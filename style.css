@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 70%;
+}
+
+form input{
+    border: 0.5px solid #dedede;
+}
+
+form button{
+    border: 0.5px solid #dedede;
+    background-color: #5aff3d;
+}
+
+form button:hover{
+    background-color: #56f23a ;
+}
