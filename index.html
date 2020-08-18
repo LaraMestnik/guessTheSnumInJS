@@ -10,19 +10,19 @@
     <title>Guess the secret number game</title>
 </head>
 
-<body onload="createSnum()">
+<body onload="createRandom()">
 
     <div class="container text-center">
         <div class="content d-flex flex-column justify-content-center align-items-center">
             <h1 id="main-heading" class="m-5 text-uppercase">Guess the secret number game</h1>
-
+            <p id="error"></p>
             <form class="d-flex flex-column">
                 <input type="text" class="p-2 mb-2 rounded" id="user-guess" placeholder="Enter your guess here">
-                <button class="p-2 rounded text-uppercase">Submit your guess</button>
+                <button class="p-2 rounded text-uppercase" onclick="guessTheSecretNumber()">Submit your guess</button>
             </form>
 
 
-            <p id="result" class="mt-5 text-uppercase">output</p>
+            <p id="result" class="mt-5 text-uppercase"></p>
         </div>
     </div>
 
