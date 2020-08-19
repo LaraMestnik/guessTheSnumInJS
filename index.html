@@ -10,17 +10,17 @@
     <title>Guess the secret number game</title>
 </head>
 
-<body onload="createRandom()">
+<body>
 
     <div class="container text-center">
         <div class="content d-flex flex-column justify-content-center align-items-center">
             <h1 id="main-heading" class="m-5 text-uppercase">Guess the secret number game</h1>
             <p id="error"></p>
             <form class="d-flex flex-column">
-                <input type="text" class="p-2 mb-2 rounded" id="user-guess" placeholder="Enter your guess here">
-                <button class="p-2 rounded text-uppercase" onclick="guessTheSecretNumber()">Submit your guess</button>
+                <input type="text" class="p-2 mb-2 rounded" id="user-guess"
+                    placeholder="Enter your guess here. Number has to be between 1-100.">
+                <button class="p-2 rounded text-uppercase" id="btn">Submit your guess</button>
             </form>
-
 
             <p id="result" class="mt-5 text-uppercase"></p>
         </div>
@@ -37,6 +37,7 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
 </body>
 
 </html>
